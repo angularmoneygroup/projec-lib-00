@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project-lib-00';
+
+  menu = [
+    {
+      id: 1,
+      menu: 'Pagina Inicial',
+      rota: '/home'
+    },
+    {
+      id: 2,
+      menu: 'Formulario',
+      rota: '/form'
+    },
+  ]
 }
