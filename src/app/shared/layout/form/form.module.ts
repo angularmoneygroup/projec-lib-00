@@ -1,14 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormQuestionComponentComponent } from './form-question-component/form-question-component.component';
+
+import { FormQuestionComponent} from './form-question/form-question.component';
 import { FormComponent } from './form.component';
-import { FormRoutingModule } from './form.routing.module';
+
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
     CommonModule,
-    FormRoutingModule
+    ReactiveFormsModule,
   ],
-  declarations: [FormComponent,FormQuestionComponentComponent]
+  declarations: [
+    FormComponent,
+    FormQuestionComponent
+  ],
+  exports:[
+    FormComponent,
+    FormQuestionComponent
+  ]
 })
 export class FormModule { }
