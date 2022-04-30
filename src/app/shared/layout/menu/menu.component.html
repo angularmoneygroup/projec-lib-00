@@ -1,0 +1,9 @@
+<ul class="sidebar-menu" data-widget="tree">
+  <li class="header">MAIN NAVIGATION</li>
+
+  <ng-container *ngFor="let menu of menuArray ">
+      <li>
+        <button [routerLink]="[menu.rota]">{{menu.menu}}</button>
+      </li>
+  </ng-container>
+</ul>

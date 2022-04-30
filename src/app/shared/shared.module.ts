@@ -2,16 +2,18 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from './layout/menu/menu.component';
 import { FormComponent } from './layout/form/form.component';
-
-
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-    MenuComponent,
-    FormComponent
+    MenuComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
+  ],
+  exports: [
+    MenuComponent
   ]
 })
 export class SharedModule { }

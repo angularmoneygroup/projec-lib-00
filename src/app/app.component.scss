@@ -1,0 +1,16 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+
+  .menu{
+    width: 20%;
+    border: solid 1px ;
+    height: 100%;
+    border-color: red;
+  }
+
+  .router{
+    width: 80%;
+  }
+}
