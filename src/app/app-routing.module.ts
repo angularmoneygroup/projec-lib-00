@@ -10,7 +10,7 @@ const routes: Routes = [
   },
   {
     path: 'form',
-    loadChildren: () => import('./shared/layout/form/form.module').then(m => m.FormModule)
+    loadChildren: () => import('./pages/dynamic-form/dynamic-form.module').then(m => m.DynamicFormModule)
   }
 
 ];
