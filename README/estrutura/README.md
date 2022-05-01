@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/104688167/166146651-2b814220-4c46-4e76-8544-23bc1f7ebe18.png)
+
 # Estruturação de Projetos
 
 Sabemos que um aplicação Angular é composto por diversos elementos como módulos, componentes, templates e serviços. 
