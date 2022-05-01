@@ -1,6 +1,6 @@
  <div>
   <a href="https://github.com/angularmoneygroup">
-  <img height="152em" src="https://github-readme-stats.vercel.app/api?  username=angularmoneygroup&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="152em" src="https://github-readme-stats.vercel.app/api?username=angularmoneygroup&show_icons=true&theme=dark&include_all_commits=true"/>
   <img height="152em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=angularmoneygroup&layout=compact&&langs_count=7&theme=dark"/>
 </div>
 
