@@ -14,6 +14,8 @@ Esse projeto foi criado com o intuito de criar uma documentação/biblioteca par
  ## Links Uteis
   
   <a href="https://github.com/angularmoneygroup/projec-lib-00/tree/dev/README/git_config">Como Alterar o Git Config
+    
+  <a href="https://github.com/angularmoneygroup/projec-lib-00/tree/dev/README/estrutura">Estrutura de Projetos
 
 ## Observações
 
