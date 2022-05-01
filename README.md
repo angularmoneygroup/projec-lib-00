@@ -8,9 +8,9 @@ Esse projeto foi criado com o intuito de criar uma documentação/biblioteca par
 
 2- Por favor conferir o `git config --list` se tiver algo como `user.name=Pablo Waniery` e o `user.email=pablowaniery@gmail.com` você pode commitar se não terá que alteralo mais tarde
 
-###Atenção não alterar o Git nos computadores da empresa apenas no seu computador pessoal
+### Atenção não alterar o Git nos computadores da empresa apenas no seu computador pessoal
 
-##Alterando o `git config`
+## Alterando o `git config`
 
 Fonte: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git
 
@@ -22,7 +22,7 @@ $ git config user.email fulanodetal@exemplo.br
 Se você quiser substituir essa informação com nome diferente para um projeto específico, você pode rodar o comando novamente com outras informações.
 
 
-###Testando Suas Configurações
+### Testando Suas Configurações
 
 Se você quiser testar as suas configurações, você pode usar o comando git config --list para listar todas as configurações que o Git conseguir encontrar naquele momento:
 
