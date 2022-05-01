@@ -6,25 +6,39 @@ Esse projeto foi criado com o intuito de criar uma documentação/biblioteca par
 
 1- Esse projeto só pode ser comitado com a conta da angularmoneygroup, o acesso a essa conta foi destribuido a vocês, caso não tenha por favor solicitar
 
-2- Por favor conferir  `git config --list` na parte de user.name=Pablo Waniery
-user.email=pablo.fcamara@fornecedores.klabin.com.br
+2- Por favor conferir o `git config --list` se tiver algo como `user.name=Pablo Waniery` e o `user.email=pablowaniery@gmail.com` você pode commitar se não terá que alteralo mais tarde
 
-## Code scaffolding
+###Atenção não alterar o Git nos computadores da empresa apenas no seu computador pessoal
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##Alterando o `git config`
 
-## Build
+Fonte: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+A primeira coisa que você deve fazer ao instalar Git é configurar seu nome de usuário e endereço de e-mail. Isto é importante porque cada commit usa esta informação, e ela é carimbada de forma imutável nos commits que você começa a criar:
 
-## Running unit tests
+$ git config user.name "Fulano de Tal"
+$ git config user.email fulanodetal@exemplo.br
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Se você quiser substituir essa informação com nome diferente para um projeto específico, você pode rodar o comando novamente com outras informações.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+###Testando Suas Configurações
 
-## Further help
+Se você quiser testar as suas configurações, você pode usar o comando git config --list para listar todas as configurações que o Git conseguir encontrar naquele momento:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+$ git config --list
+user.name=Fulano de Tal
+user.email=fulanodetal@exemplo.br
+color.status=auto
+color.branch=auto
+color.interactive=auto
+color.diff=auto
+...
+Pode ser que algumas palavras chave apareçam mais de uma vez, porque Git lê as mesmas chaves de arquivos diferentes (/etc/gitconfig e ~/.gitconfig, por exemplo). Neste caso, Git usa o último valor para cada chave única que ele vê.
+
+Você pode também testar o que Git tem em uma chave específica digitando git config <key>:
+
+$ git config user.name
+Fulano de Tal
+  
+====
