@@ -2,9 +2,10 @@ import { Injectable } from '@angular/core';
 
 
 import { of } from 'rxjs';
-import { DropdownQuestion } from 'src/app/shared/Models/controls-form/question-dropdown';
-import { TextboxQuestion } from 'src/app/shared/Models/controls-form/question-textbox';
-import { QuestionBase } from 'src/app/shared/Models/question-base';
+import { DropdownQuestion } from '../Models/controls-form/question-dropdown';
+import { TextboxQuestion } from '../Models/controls-form/question-textbox';
+import { QuestionBase } from '../Models/question-base';
+
 
 @Injectable()
 export class QuestionService {

@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API_POAT: "http://www.poatransporte.com.br/php/facades/process.php?a=nc&p=%&t=l"
 };
 
 /*

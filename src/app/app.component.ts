@@ -19,5 +19,10 @@ export class AppComponent {
       menu: 'Formulario',
       rota: '/form'
     },
+    {
+      id: 3,
+      menu: 'Tabela',
+      rota: '/table'
+    },
   ]
 }
