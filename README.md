@@ -1,10 +1,13 @@
 # ProjectLib00
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+Esse projeto foi criado com o intuito de criar uma documentação/biblioteca para consulta
 
-## Development server
+## Observações
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1- Esse projeto só pode ser comitado com a conta da angularmoneygroup, o acesso a essa conta foi destribuido a vocês, caso não tenha por favor solicitar
+
+2- Por favor conferir  `git config --list` na parte de user.name=Pablo Waniery
+user.email=pablo.fcamara@fornecedores.klabin.com.br
 
 ## Code scaffolding
 
