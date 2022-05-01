@@ -1,4 +1,7 @@
- <div>
+ ![image](https://user-images.githubusercontent.com/104688167/166146651-2b814220-4c46-4e76-8544-23bc1f7ebe18.png)
+
+ 
+ <div align="center">
   <a href="https://github.com/angularmoneygroup">
   <img height="152em" src="https://github-readme-stats.vercel.app/api?username=angularmoneygroup&show_icons=true&theme=dark&include_all_commits=true"/>
   <img height="152em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=angularmoneygroup&layout=compact&&langs_count=7&theme=dark"/>
