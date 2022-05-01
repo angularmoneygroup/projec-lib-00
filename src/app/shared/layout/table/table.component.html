@@ -1,0 +1,35 @@
+<div class="row mt-2">
+  <div class="col-12">
+    <table aria-describedby="table" class="table">
+      <ng-container *ngIf="tableContent && tableConfig; else customized">
+        <thead>
+        <tr>
+          <th [id]="columnHead.dataProperty" *ngFor="let columnHead of tableConfig?.columns">{{ columnHead.title }}</th>
+        </tr>
+        </thead>
+        <tbody>
+        <ng-container *ngFor="let columnData of tableContent; let i = index">
+          <tr>
+            <td *ngFor="let columnHead of tableConfig?.columns">
+              <div
+                *ngIf="columnHead.dataProperty !== 'ROW_ACTIONS';else action_content">{{ columnData[columnHead.dataProperty] }}</div>
+              <ng-template #action_content>
+                <div class="d-flex float-right">
+                  <div class="link m-2" *ngFor="let action of tableConfig?.rowActions">
+                    <i class="feather"
+                               (click)="onRowActionClicked(action.actionIdToReturn, columnData)"></i>
+                  </div>
+                </div>
+              </ng-template>
+            </td>
+          </tr>
+        </ng-container>
+        </tbody>
+      </ng-container>
+      <ng-template #customized>
+        <ng-content></ng-content>
+      </ng-template>
+    </table>
+
+  </div>
+</div>

@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
+import { QuestionBase } from 'src/app/core/Models/question-base';
 import { QuestionService } from 'src/app/core/service/question.service';
-import { QuestionBase } from 'src/app/shared/Models/question-base';
+
 
 @Component({
   selector: 'app-dynamic-form',

@@ -11,6 +11,10 @@ const routes: Routes = [
   {
     path: 'form',
     loadChildren: () => import('./pages/dynamic-form/dynamic-form.module').then(m => m.DynamicFormModule)
+  },
+  {
+    path: 'table',
+    loadChildren: () => import('./pages/table/table.module').then(m => m.TableModule)
   }
 
 ];
