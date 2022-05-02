@@ -1,0 +1,31 @@
+<table>
+  <thead>
+    <tr *ngFor="let coluna of colunas">
+      <!-- percorrer cada coluna -->
+      <th>
+        {{ coluna.id }}
+      </th>
+      <th>
+        {{ coluna.codigo }}
+      </th>
+      <th>
+        {{ coluna.nome }}
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+        <ng-container *ngFor="let columnData of linhas; let i = index">
+          <tr>
+            <td>
+              {{ columnData.id }}
+            </td>
+            <td>
+              {{ columnData.codigo }}
+            </td>
+            <td class="text-uppercase">
+              {{ columnData.nome }}
+            </td>
+          </tr>
+        </ng-container>
+  </tbody>
+</table>
