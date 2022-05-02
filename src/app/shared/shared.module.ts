@@ -3,10 +3,13 @@ import { CommonModule } from '@angular/common';
 import { MenuComponent } from './layout/menu/menu.component';
 import { RouterModule } from '@angular/router';
 import { TableComponent } from './layout/table/table.component';
+import { TabelaAninhadaComponent } from './layout/tabela-aninhada/tabela-aninhada.component';
 
 @NgModule({
   declarations: [
     MenuComponent,
+    TabelaAninhadaComponent,
+    TabelaAninhadaComponent,
     TableComponent
   ],
   imports: [
@@ -15,6 +18,7 @@ import { TableComponent } from './layout/table/table.component';
   ],
   exports: [
     MenuComponent,
+    TabelaAninhadaComponent,
     TableComponent
   ]
 })

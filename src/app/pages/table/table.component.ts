@@ -12,6 +12,8 @@ export class PageTableComponent implements OnInit {
 
   tableContent: any;
   tableConfig?: DataTableType;
+  linhas: any
+  colunas: any
 
   constructor(private poatransportesService: PoatransportesService) { }
 
@@ -20,8 +22,20 @@ export class PageTableComponent implements OnInit {
   }
 
   getAllTeste() {
-    this.poatransportesService.getAll().subscribe(res =>
+    this.poatransportesService.getAll().subscribe(res =>{
       this.tableContent = res
+      this.linha(res)
+    }
       )
+  }
+
+  linha(param: any){
+    console.log(param)
+    this.colunas = [{
+      id: "ID",
+      codigo: "Código",
+      nome: "Nome"
+    }]
+    this.linhas = param
   }
 }
